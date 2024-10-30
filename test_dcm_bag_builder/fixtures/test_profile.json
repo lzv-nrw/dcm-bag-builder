@@ -1,0 +1,17 @@
+{
+    "BagIt-Profile-Info": {
+        "Source-Organization": "Some source organization",
+        "External-Description": "Some description",
+        "Contact-Name": "Some name",
+        "BagIt-Profile-Identifier": "test_dcm_bag_builder/fixtures/test_profile.json",
+        "BagIt-Profile-Version": "1.3.0",
+        "Version": "0.3.2"
+    },
+    "Bag-Info": {
+        "Bagging-DateTime": {
+            "required": true,
+            "repeatable": false,
+            "description": "(\\d{4}-[01]\\d-[0-3]\\dT[0-2]\\d:[0-5]\\d:[0-5]\\d\\.\\d+([+-][0-2]\\d:[0-5]\\d|Z))|(\\d{4}-[01]\\d-[0-3]\\dT[0-2]\\d:[0-5]\\d:[0-5]\\d([+-][0-2]\\d:[0-5]\\d|Z))|(\\d{4}-[01]\\d-[0-3]\\dT[0-2]\\d:[0-5]\\d([+-][0-2]\\d:[0-5]\\d|Z))"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-08-07T11:06:08Z</responseDate>
+  <request identifier="oai:abc:12345-6789" metadataPrefix="oai_dc" verb="GetRecord">https://www.lzv.nrw/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>id:0</identifier>
+        <datestamp>2023-07-31</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title xml:lang="en">Some title</dc:title>
+          <dc:creator>Max Muster, et al.</dc:creator>
+          <dc:description>Some description</dc:description>
+          <dc:rights>https://creativecommons.org/licenses/by-nd/3.0/de/</dc:rights>
+          <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
